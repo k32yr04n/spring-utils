@@ -1,4 +1,4 @@
-package amock.io.utils.utils.api;
+package amock.io.utils.api;
 
 import java.io.File;
 import java.io.InputStream;
