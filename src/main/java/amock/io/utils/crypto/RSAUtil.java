@@ -21,6 +21,7 @@ import org.apache.commons.codec.binary.Base64;
 
 import sun.misc.BASE64Encoder;
 
+@SuppressWarnings("restriction")
 public class RSAUtil {
 
     public static String decryptRsa(String payload, String keyPath) throws Exception {

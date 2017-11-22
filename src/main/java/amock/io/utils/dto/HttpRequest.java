@@ -14,9 +14,15 @@ public class HttpRequest {
 
 	protected boolean proxyEnabled;
 	
+	protected boolean proxyAuthentication;
+	
 	protected String proxyHost;
 	
 	protected int proxyPort;
+	
+	protected String proxyUser;
+	
+	protected String proxyPass;
 
 	public String getMethod() {
 		return method;
@@ -72,6 +78,30 @@ public class HttpRequest {
 
 	public void setProxyPort(int proxyPort) {
 		this.proxyPort = proxyPort;
+	}
+
+	public boolean isProxyAuthentication() {
+		return proxyAuthentication;
+	}
+
+	public void setProxyAuthentication(boolean proxyAuthentication) {
+		this.proxyAuthentication = proxyAuthentication;
+	}
+
+	public String getProxyUser() {
+		return proxyUser;
+	}
+
+	public void setProxyUser(String proxyUser) {
+		this.proxyUser = proxyUser;
+	}
+
+	public String getProxyPass() {
+		return proxyPass;
+	}
+
+	public void setProxyPass(String proxyPass) {
+		this.proxyPass = proxyPass;
 	}
 	
 	
